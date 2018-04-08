@@ -1,24 +1,20 @@
-# README
+## Blog
+Its my first Rails project to learn:  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. How to install Rails, create a new Rails application and connect the application to the database.
+2. The general layout of a Rails application.  
+3. The basic principles of MVC (Model, View, Controller) and RESTful design.    
+4. How to quickly generate the starting pieces of a Rails application.
 
-Things you may want to cover:
+## Installations:  
+To install Rails, use the gem install command provided by RubyGems:  
+$ gem install rails  
 
-* Ruby version
+Creating the Blog Application:  
+$ rails new blog  
 
-* System dependencies
+Starting up the Web Server:  
+$ bin/rails server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To see your application in action:  
+ Open a browser window and navigate to http://localhost:3000. You should see the Rails default information page.
